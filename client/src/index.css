@@ -1,0 +1,119 @@
+
+
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+.nav-area{
+
+ display: flex;
+ justify-content: space-between;
+ margin-right: 5%;
+ margin-top: 3%;
+}
+
+nav{
+ background-color: rgb(118, 118, 118);
+ display: flex;
+ justify-content: flex-end;
+ gap: 4%;
+ padding-right: 2%;
+ height: 40px;
+ width: 500px;
+ border: 1px black solid;
+ border-radius: 25px;
+ align-items: center;
+ 
+}
+
+.nav-links{
+ background: none;
+ text-decoration: none;
+ font-size: large;
+ font-style: bold;
+ color: black;
+}
+
+.logo-area{
+ color: white;
+ font-size: xx-large;
+}
+
+.titlename-home{
+ color: white;
+ text-align: center;
+ font-size: xx-large;
+}
+
+
+
+
+/* create area for the Boards */
+.add-btn-area{
+ 
+ text-align: center;
+
+}
+.create-area{
+ background-color:  rgba(0, 0, 0, 0.773);
+ height: 620px;
+ border: 2px solid rgb(218, 212, 212) ;
+}
+
+
+
+.create-btn{
+ font-size: 300%;
+ color: white;
+ background:  rgba(0, 0, 0, 0.311);
+ border-radius: 45%;
+ border: none;
+ margin-bottom: 1%;
+}
+
+
+
+/* Pop up inner area */
+
+.popup-inner{
+ background-color: rgba(255, 255, 255, 0.539);
+ backdrop-filter:  blur(35px);
+ text-align: center;
+ height: 390px;
+ width: 340px;
+ border-radius: 18%;
+}
+
+
+.close-btn{
+ 
+ margin-top: 3%;
+ margin-left: 70%;
+ background: none;
+ border: none;
+ color: red;
+ font-size: 120%;;
+ 
+}
+
+.popup-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.enter-btn{
+ margin-top: 6%;
+}
+
+.descrip-area{
+ background-color: rgb(255, 255, 255);
+ height: 10%;
+ width: 80%;
+ display: inline-flex;
+ flex: wrap;
+ 
+}
